@@ -3,7 +3,6 @@ function [theta3,theta4,xp,yp,MA] = Problem4_4(r1,r2,r3,r4,a3,b3)
 
 % theta2 is the input
 theta2 = 0:10:360;
-% theta2 = (theta2*pi)/180;
 
 theta1 = zeros(size(theta2));
 theta3 = zeros(size(theta2));
